@@ -1,0 +1,58 @@
+  body {
+    background-color: #416069;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    padding: 25px 75px 75px;
+    }
+
+
+/* Add a darker color to the top nav */
+.topnav {
+    background-color: #123944;
+    overflow: hidden;
+}
+
+/* Style the links inside the nav bar */
+.topnav a {
+    color: #e7ebec;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Change color of link on hover */
+.topnav a:hover {
+    background-color: #A1C084;
+}
+.topnav a:active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* put space between images */
+.padded {
+    padding:0 30px 15px 0;
+    }
+
+/* put content in flexbox */
+.chania {
+    display: flex;
+    gap: 16px;
+}
+
+/* no margin top in all paragraphs */
+p {
+    margin-top: 0;
+}
+
+/* style footer */
+footer {
+    margin-top: 58px;
+    text-align: center;
+    background-color: #123944;
+}
+
+.list_image {
+    padding: 5px 0 20px 0;
+}
